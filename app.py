@@ -56,7 +56,7 @@ else:
 
 # Input Section
 st.subheader(f"Day 1 of {plan}")
-st.write("Topic: Discuss a recent technological advancement and its impact on society.")
+# st.write("Topic: Discuss a recent technological advancement and its impact on society.")
 
 # Textbox for user input
 user_essay = st.text_area("Write your essay here:", height=300)
