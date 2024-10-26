@@ -72,3 +72,7 @@ if st.button("Submit for Feedback"):
         st.write(feedback)
     else:
         st.warning("Please write your essay before submitting!")
+
+# Add LinkedIn handle
+st.sidebar.subheader("Connect with Me")
+st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/adnaantariq/)")
