@@ -35,10 +35,10 @@ def get_feedback(user_essay, level):
     return feedback
 
 # Streamlit UI
-st.title("Writing Assistant for IELTS/TOEFL/DET Preparation")
+st.title("Writing Assistant for IELTS/TOEFL Preparation")
 
 st.write("""
-    This Writing Assistant app is designed to help students prepare for IELTS, TOEFL, and DET exams by providing detailed feedback on their essays. 
+    This Writing Assistant app is designed to help students prepare for IELTS and TOEFL exams by providing detailed feedback on their essays. 
     Simply write your essay on the given topic, select your proficiency level, and submit it for analysis.
     The app will assess your writing for grammar, cohesion, sentence structure, vocabulary, and overall effectiveness.
 """)
