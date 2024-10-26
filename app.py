@@ -39,10 +39,8 @@ st.title("Writing Assistant for IELTS/TOEFL/DET Preparation")
 
 st.write("""
     This Writing Assistant app is designed to help students prepare for IELTS, TOEFL, and DET exams by providing detailed feedback on their essays. 
-    Simply write your essay on the given topic, select your proficiency level, and submit it for analysis. The app will assess your writing for grammar, cohesion, 
-    sentence structure, vocabulary, and overall effectiveness. Based on your selected proficiency level, the feedback will be tailored to help you improve 
-    in a concise and actionable way. Whether you're a beginner or an advanced writer, this tool can help enhance your writing skills and prepare you for 
-    success in your exams!
+    Simply write your essay on the given topic, select your proficiency level, and submit it for analysis.
+    The app will assess your writing for grammar, cohesion, sentence structure, vocabulary, and overall effectiveness.
 """)
 # Sidebar with Plan Selection
 st.sidebar.title("Select Your Writing Plan")
