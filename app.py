@@ -75,4 +75,4 @@ if st.button("Submit for Feedback"):
 
 # Add LinkedIn handle
 st.sidebar.subheader("Connect with Me")
-st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/adnaantariq/)")
+st.sidebar.write("[Muhammad Adnan Tariq-LinkedIn](https://www.linkedin.com/in/adnaantariq/)")
