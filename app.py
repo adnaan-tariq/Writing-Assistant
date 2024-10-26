@@ -3,8 +3,11 @@ import streamlit as st
 from groq import Groq
 
 # Load the environment variable for the API key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual key
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+api_key = os.getenv("GROQ_API_KEY")
+if not api_key:
+    raise ValueError("GROQ_API_KEY environment variable is not set")
+
+client = Groq(api_key=api_key)
 
 # Function to get feedback from the model
 def get_feedback(user_essay, level):
